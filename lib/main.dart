@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'loading_animatione_page.dart';
+import 'navigate_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: const Color(0x9f4376f8),
       ),
-      home: const LoadingPage(),
+      home: NavigationePage(),
     );
   }
 }
